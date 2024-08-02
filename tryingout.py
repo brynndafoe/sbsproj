@@ -26,7 +26,7 @@ def split_by_sign(lst, low, high):
         split_by_sign(lst, i + 1, j - 1)
 
 if __name__ == "__main__":
-    lst = [-5, -2, 3, 7, -1, 4]
+    lst = [-6, -2, 3, 7, -1, 4]
     print("Original list:", lst)
     split_by_sign(lst, 0, len(lst) - 1)
     print("List after split by sign:", lst)
